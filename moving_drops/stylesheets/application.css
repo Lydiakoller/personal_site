@@ -1,0 +1,35 @@
+div#xs-drop-container {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+div#xs2-drop-container {
+    position: absolute;
+    margin-left: 550px;
+    transition: all 0.5s ease-in;
+}
+
+div#small-drop-container {
+    position: absolute;
+    margin-left: 300px;
+}
+
+div#med-drop-container {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+div#large-drop-container {
+    position: absolute;
+    margin-left: 800px;
+}
+
+div#large2-drop-container {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+

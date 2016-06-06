@@ -1,0 +1,38 @@
+body{
+    background-size: cover;
+    background-image: url("../images/what-does-your-brand-stand-for-brick-background.jpg");
+}
+
+.bird-right{
+    transform: scale(0.70, 0.70);
+}
+
+.bird-left{
+    transform: scale(0.70, 0.70);
+}
+
+.cloud-right{
+    transform: scale(0.70, 0.70);
+}
+
+.cloud-left{
+    transform:  scale(0.65, 0.65);
+}
+#bird-right-container{
+    position:absolute;
+    transform: translate(710px,237px);
+}
+#bird-left-container{
+    position:absolute;
+    transform: translate(100px,170px);
+}
+
+#cloud-left-container{
+    position:absolute;
+    transform: translate(300px,175px);
+}
+
+#cloud-right-container{
+    position:absolute;
+    transform: translate(910px,230px);
+}
