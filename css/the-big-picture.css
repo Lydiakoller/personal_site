@@ -23,7 +23,7 @@ p{
 }
 
 .full {
-  background: url('./../images/background-me.png'), no-repeat center center fixed;
+  background: url('./../images/background-me.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -34,6 +34,18 @@ p{
       background: url('./../images/smaller-background-me.jpg') no-repeat center center fixed; 
       background-size: 105%;
       margin-top: -10px;
+  }
+}
+.glasses{
+    display:inline-block;
+    transform: scale(.55, .55)
+               translate(168%, 21%);
+}
+@media (max-width: 600px) {
+  .glasses {
+        display:inline-block;
+        transform: scale(1.3, 1.3)
+                   translate(40%, 123%);
   }
 }
 .mustache{
@@ -56,17 +68,3 @@ svg {
       transform: scale(1.5, 1.5)
                  translate(34%, 227%);
   }
-.path {
-  stroke-dasharray: 2000;
-  stroke-dashoffset: 2000;
-  animation: dash 5s linear alternate infinite;
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1800;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
