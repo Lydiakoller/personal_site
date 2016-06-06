@@ -70,8 +70,20 @@ font-size: 31px;
 }
 
 @media (max-width: 600px) {
+  .glasses {
+      transform: scale(1.5, 1.5)
+                 translate(34%, 59%);
+  }
   .mustache {
       transform: scale(1.5, 1.5)
-                 translate(34%, 227%);
+                 translate(34%, 153%);
   }
+    h1 {
+        color: #ffe700;
+        font-size: 29px;
+        margin-top: 105%;
+    }
+    p {
+        color: #ffe700;
+    }
 
